@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPHATIC TECH</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body Styling */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url("https://images.pexels.com/photos/26954236/pexels-photo-26954236/free-photo-of-honeycomb-texture.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1https://images.pexels.com/photos/26954236/pexels-photo-26954236/free-photo-of-honeycomb-texture.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1https://images.pexels.com/photos/26954236/pexels-photo-26954236/free-photo-of-honeycomb-texture.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        /* Header Styling */
+        .header {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+
+        .header .logo img {
+            height: 30px;
+            margin-right: 8px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .header button {
+            /* margin-left: 100PX; */
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Main Section */
+        .main {
+            max-width: 800px;
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin-top: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            /* text-decoration: none; */
+        }
+
+        .main h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .main p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        .create-quiz-btn {
+            padding: 15px 30px;
+            font-size: 1rem;
+            background-color: #393434;
+            color: #ffffff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            /* text-decoration: none; */
+        }
+
+        .create-quiz-btn:hover {
+            background-color: #70777c;
+        }
+
+        .custom-link {
+        color: whitesmoke ; 
+        text-decoration: none;
+        }
+
+        /* .custom-link:hover { */
+        /* color: orange; Change color on hover */
+        /* } */
+
+         .custom-link:visited {
+        color: white; /* Change color after visit */
+        } 
+
+        /* Image and Additional Content */
+        .quiz-image {
+            margin-left: 100px;
+            margin-top: 30px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Footer Section */
+        .footer {
+            max-width: 800px;
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-top: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .footer p {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.5;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="WhatsApp Image 2024-11-06 at 5.29.54 PM.jpeg" alt="Mentimeter Logo">
+            <span>SPHATIC TECH</span>
+        </div>
+        <nav class="nav-links">
+            <!-- <a href="#">KGDD</a>
+            <a href="#">DFG</a>
+            <a href="#">DFG</a>
+            <a href="#">DFG</a> -->
+            <a href="#"></a> 
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a> 
+            <a href="#"></a>
+            <button><a href="home.html" class="custom-link">Log in</button>
+            <button><a href="home.html" class="custom-link">Sign up</button>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section class="main">
+        <h1>Quiz Maker: Create a quiz to challenge your audience</h1>
+        <p>Make fun interactive quizzes to test your colleagues' knowledge, run a quiz night with friends, or help students study.</p>
+        <button class="create-quiz-btn"><a href="home.html" class="custom-link">QUIZ</button>
+        <img src="WhatsApp Image 2024-11-06 at 6.02.09 PM.jpeg" alt="Quiz Example Image" class="quiz-image">
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <h2>Host a quiz to energize your audience</h2>
+        <p>Looking to level up your presentations? Add excitement and interaction with a live quiz! Whether serious or casual, our free quiz maker ensures it's fun and engaging.</p>
+    </section>
+
+</body>
+</html>
+
+
